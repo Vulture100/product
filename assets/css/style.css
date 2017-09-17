@@ -79,11 +79,11 @@ button {
 }
 
 #sidebar {
-	width: 300px;
+	width: 299px;
 	height: calc(100% - 75px);
 	background: #f0f0f0;
 	float: right;
-	box-shadow: 0 5px 5px #f0f0f0;
+	border-left: 1px solid #f0f0f0;
 }
 #sidebar .card {
 
