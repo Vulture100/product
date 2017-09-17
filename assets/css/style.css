@@ -15,12 +15,31 @@ body {
 h1, h2, h3 {
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 2px;
-	padding: 5px;
 }
 
 p {
 	font-family: 'Roboto Condensed', sans-serif;
-	padding: 5px;
+}
+
+input {
+	width: 100%;
+	height: 20px;
+	border: none;
+	border-bottom: 2px solid #333;
+	margin-bottom: 10px;
+}
+input:focus {
+	outline: none;
+	border-bottom: 2px solid #3498db;
+}
+
+button {
+	width: 60px;
+	height: 30px;
+	background: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
 }
 
 #header {
@@ -42,12 +61,29 @@ p {
 	width: calc(100% - 300px);
 }
 
+.card {
+	display: block;
+	background: #fff;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.subHeader {
+	width: 100%;
+	height: 50px;
+	background: #2c3e50;
+}
+.subHeader h2 {
+	padding: 5px;
+	color: #fff;
+}
+
 #sidebar {
 	width: 300px;
 	height: calc(100% - 75px);
 	background: #f0f0f0;
 	float: right;
 }
-#sidebar h2 {
-	color: #2c3e50;
+#sidebar .card {
+
 }
