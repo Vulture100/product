@@ -83,7 +83,7 @@ button {
 	height: calc(100% - 75px);
 	background: #f0f0f0;
 	float: right;
-	box-shadow: 2px 0 5px #f0f0f0;
+	box-shadow: 0 5px 5px #f0f0f0;
 }
 #sidebar .card {
 
